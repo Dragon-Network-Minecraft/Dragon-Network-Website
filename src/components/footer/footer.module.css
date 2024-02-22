@@ -1,66 +1,99 @@
 /* footer.module.css */
 
-.wrapper {
-  margin: 0 auto;
-  padding: 30px 40px;
-  max-width: 1200px;
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
-.footer {
-  background-color: #333;
-  color: white;
+/* Box-sizing border-box for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--footer-background);
   padding: 20px;
   text-align: center;
-  border-top: 4px solid #fff; /* Add a top border for a polished look */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: var(--text-color);
 }
 
-.privacyTerms {
-  margin-top: 20px;
+.privacyTerms, .contactInfo, .madeBy {
+  margin-bottom: 15px;
 }
 
 .link {
-  color: #fff;
+  color: var(--qwik-light-blue);
   text-decoration: none;
-  margin: 0 20px;
-  font-size: 1.2rem;
-  transition: color 0.3s ease-in-out; /* Add a smooth color transition on hover */
-}
-
-.link:hover {
-  color: #66a2ff; /* Change link color on hover */
 }
 
 .separator {
-  color: #ccc;
   margin: 0 10px;
-  font-size: 1.2rem;
+  color: var(--qwik-dirty-black);
 }
 
-.contactInfo, .madeBy {
-  margin-top: 30px;
-}
-
-.contactInfo p, .madeBy p {
-  margin: 15px 0;
-  font-size: 1.2rem;
-}
-
-/* Responsive Design */
-@media only screen and (max-width: 768px) {
-  .footer {
-    padding: 20px 10px;
-  }
-
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
   .privacyTerms, .contactInfo, .madeBy {
-    text-align: left;
+    margin-bottom: 10px;
   }
+}
 
-  .link {
-    display: block;
-    margin: 10px 0;
+/* Additional styles from global.css */
+/* Apply global link styles to footer links */
+a {
+  text-decoration: none;
+  color: var(--qwik-light-blue);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--qwik-light-blue);
+}
+
+code {
+  background: rgba(230, 230, 230, 0.3);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* Apply global heading styles to footer headings */
+h1,
+h2,
+h3 {
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
   }
-
-  .wrapper {
-    padding: 30px 10px;
+  h2 {
+    font-size: 3.4rem;
+  }
+  h3 {
+    font-size: 3rem;
   }
 }
