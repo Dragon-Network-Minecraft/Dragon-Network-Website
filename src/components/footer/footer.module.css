@@ -3,7 +3,7 @@
 .wrapper {
   margin: 0 auto;
   padding: 30px 40px;
-  max-width: 1200px; /* Adjust the maximum width as needed */
+  max-width: 1200px;
 }
 
 .footer {
@@ -11,28 +11,38 @@
   color: white;
   padding: 20px;
   text-align: center;
+  border-top: 4px solid #fff; /* Add a top border for a polished look */
 }
 
 .privacyTerms {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .link {
   color: #fff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out; /* Add a smooth color transition on hover */
+}
+
+.link:hover {
+  color: #66a2ff; /* Change link color on hover */
 }
 
 .separator {
   color: #ccc;
+  margin: 0 10px;
+  font-size: 1.2rem;
 }
 
 .contactInfo, .madeBy {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .contactInfo p, .madeBy p {
-  margin: 10px 0;
+  margin: 15px 0;
+  font-size: 1.2rem;
 }
 
 /* Responsive Design */
@@ -48,5 +58,9 @@
   .link {
     display: block;
     margin: 10px 0;
+  }
+
+  .wrapper {
+    padding: 30px 10px;
   }
 }
