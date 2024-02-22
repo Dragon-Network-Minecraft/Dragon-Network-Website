@@ -6,17 +6,17 @@
  *
  */
 
-:root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
+ :root {
+  --qwik-dark-blue: #004080;
+  --qwik-light-blue: #0e5e9e;  
+  --qwik-light-purple: #8a61d2;
+  --qwik-dark-purple: #4a2695; 
+  --qwik-dirty-black: #0a0c17;   
 
-  --text-color: #ffffff;
-  --main-background: #1c224a;
-  --header-background: var(--main-background);
-  --footer-background: #0d0c25;
+  --text-color: #d9d9d9;         
+  --main-background: #05060f;    
+  --header-background: linear-gradient(to right, #004080, #0e5e9e);
+  --footer-background: #000000;  
 }
 
 /* SHELL ---------------------------------------- */
