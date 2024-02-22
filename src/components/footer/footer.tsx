@@ -21,7 +21,7 @@ export default component$(() => {
       </div>
 
       <div class={styles.madeBy}>
-        <p>Website made by <a href="https://g9aerospace.in" target="_blank">G9 Aerospace</a></p>
+        <p>Website made by Sujan and <a href="https://g9aerospace.in" target="_blank">G9 Aerospace</a></p>
       </div>
     </footer>
   );
