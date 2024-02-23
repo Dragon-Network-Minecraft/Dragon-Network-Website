@@ -1,12 +1,14 @@
 import { component$ } from "@builder.io/qwik";
 import styles from "./header.module.css";
+import dragonIcon from "../images/dragonnetwork-transparent.png";
 
 export default component$(() => {
   return (
-    <header class={styles.header}>
-      <div class={styles.wrapper}>
-        <div class={styles.logo}>
-          <a href="/" title="Dragon Network">
+    <header className={styles.header}>
+      <div className={styles.wrapper}>
+        <div className={styles.logo}>
+          <img src={dragonIcon} alt="Dragon Icon" className={styles.icon} />
+          <a href="" title="Dragon Network">
             Dragon Network
           </a>
         </div>
@@ -16,7 +18,7 @@ export default component$(() => {
           <li><a href="/store">Store</a></li>
           <li><a href="/rules">Rules</a></li>
           <li><a href="/ban-appeal">Ban Appeal</a></li>
-          <li><a>More</a></li>
+          <li><a href="#">More</a></li>
         </ul>
       </div>
     </header>
