@@ -7,7 +7,6 @@ export default component$(() => {
       <div class={styles.wrapper}>
         <div class={styles.logo}>
           <a href="/" title="Dragon Network">
-            {/* You can replace QwikLogo with your Dragon Network logo component */}
             Dragon Network
           </a>
         </div>
@@ -17,7 +16,7 @@ export default component$(() => {
           <li><a href="/store">Store</a></li>
           <li><a href="/rules">Rules</a></li>
           <li><a href="/ban-appeal">Ban Appeal</a></li>
-          <li><a href="/more">More</a></li>
+          <li><a>More</a></li>
         </ul>
       </div>
     </header>
