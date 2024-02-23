@@ -1,7 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import styles from "./footer.module.css";
-import instagramIcon from "../icons/instagram.png";
-import facebookIcon from "../icons/facebook-64.ico";
 
 export default component$(() => {
   return (
@@ -23,18 +21,6 @@ export default component$(() => {
 
       <div class={styles.madeBy}>
         <p>Website made by Sujan and <a href="https://g9aerospace.in" target="_blank">G9 Aerospace</a></p>
-      </div>
-
-      <div class={styles.socialMedia}>
-        {/* Instagram icon with link */}
-        <a href="https://www.instagram.com/dragonnetwork.dg" target="_blank" rel="noopener noreferrer">
-          <img src={instagramIcon} alt="Instagram" class={styles.icon} />
-        </a>
-
-        {/* Facebook icon with link */}
-        <a href="https://www.facebook.com/profile.php?id=61556654522748" target="_blank" rel="noopener noreferrer">
-          <img src={facebookIcon} alt="Facebook" class={styles.icon} />
-        </a>
       </div>
     </footer>
   );
