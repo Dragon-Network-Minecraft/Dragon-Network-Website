@@ -8,7 +8,7 @@ export default component$(() => {
       <div className={styles.wrapper}>
         <div className={styles.logo}>
           <img src={dragonIcon} alt="Dragon Icon" className={styles.icon} />
-          <a href="" title="Dragon Network">
+          <a>
             Dragon Network
           </a>
         </div>
