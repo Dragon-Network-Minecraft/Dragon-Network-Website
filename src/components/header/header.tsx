@@ -18,7 +18,7 @@ export default component$(() => {
           <li><a href="/store">Store</a></li>
           <li><a href="/rules">Rules</a></li>
           <li><a href="/ban-appeal">Ban Appeal</a></li>
-          <li><a href="#">More</a></li>
+          <li><a>More</a></li>
         </ul>
       </div>
     </header>
