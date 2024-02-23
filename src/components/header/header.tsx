@@ -4,10 +4,10 @@ import dragonIcon from "../images/dragonnetwork-transparent.png";
 
 export default component$(() => {
   return (
-    <header className={styles.header}>
-      <div className={styles.wrapper}>
-        <div className={styles.logo}>
-          <img src={dragonIcon} alt="Dragon Icon" className={styles.icon} />
+    <header class={styles.header}>
+      <div class={styles.wrapper}>
+        <div class={styles.logo}>
+          <img src={dragonIcon} alt="Dragon Icon" class={styles.icon} />
           <a>
             Dragon Network
           </a>
