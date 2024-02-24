@@ -29,7 +29,7 @@
 }
 
 .header {
-  background-color: black;
+  background: linear-gradient(to right, #000000, #043557); /* Black gradient background */
 }
 
 .header ul {
