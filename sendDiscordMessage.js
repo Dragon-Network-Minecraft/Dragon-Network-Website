@@ -34,12 +34,13 @@ Deploy Result:
 ${deployResult.output}
 `;
 
-// Function to split the message into chunks
+// Function to split the message into code block chunks
 function splitMessage(content) {
   const MAX_LENGTH = 2000;
   const messages = [];
   while (content.length > 0) {
-    messages.push(content.substring(0, MAX_LENGTH));
+    const chunk = content.substring(0, MAX_LENGTH);
+    messages.push('```' + chunk + '```');
     content = content.substring(MAX_LENGTH);
   }
   return messages;
