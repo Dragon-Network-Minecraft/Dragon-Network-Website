@@ -18,7 +18,7 @@ html {
     "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background: var(--footer-background);
   /* SCROLLBAR STYLING ------------------------------- */
-  scrollbar-color: var(--qwik-dark-purple) var(--qwik-dirty-black);
+  scrollbar-color: var(--qwik-dark-blue) var(--qwik-dirty-black);
   scrollbar-width: thin;
 }
 
@@ -28,8 +28,8 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--qwik-dark-purple);
-  background-image: linear-gradient(to bottom, var(--qwik-dark-purple), var(--qwik-dirty-black));
+  background-color: var(--qwik-dark-blue);
+  background-image: linear-gradient(to bottom, var(--qwik-dark-blue), var(--qwik-dirty-black));
   border-radius: 6px;
 }
 
