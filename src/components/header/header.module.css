@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 15px 20px; /* Reduced padding */
+  padding: 15px 20px;
 }
 
 .logo {
@@ -30,6 +30,7 @@
 
 .header {
   background: linear-gradient(to right, #000000, #043557); /* Black gradient background */
+  width: 100%
 }
 
 .header ul {
