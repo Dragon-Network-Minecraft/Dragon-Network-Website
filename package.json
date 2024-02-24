@@ -25,7 +25,7 @@
     "serve": "wrangler pages dev ./dist",
     "start": "vite --open --mode ssr",
     "qwik": "qwik",
-    "lesgo": "npm run build && npm run deploy"
+    "lesgo": "npm run build && npm run deploy && node sendDiscordMessage.js"
   },
   "devDependencies": {
     "@builder.io/dev-tools": "^0.0.7",
@@ -36,6 +36,7 @@
     "@types/node": "^20.11.6",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
+    "axios": "^1.6.7",
     "eslint": "^8.56.0",
     "eslint-plugin-qwik": "^1.4.5",
     "prettier": "^3.2.4",
