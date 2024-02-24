@@ -58,7 +58,7 @@ async function sendMessage(messagesArray) {
         { headers: { 'Content-Type': 'application/json' } }
       );
 
-      console.log('Message sent to Discord:', response.data);
+      console.log('Message sent to Discord', response.data);
     } catch (error) {
       console.error('Error sending message to Discord:', error.response ? error.response.data : error.message);
 
