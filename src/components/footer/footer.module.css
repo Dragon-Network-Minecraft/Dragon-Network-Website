@@ -1,91 +1,47 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-/* Box-sizing border-box for all elements */
-* {
-  box-sizing: border-box;
-}
-
-/* Global Styles */
-body {
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  background-color: #111;
-  color: #fff;
-  margin: 0;
-}
-
-/* Container for content */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Footer Styles */
-footer {
-  max-height: 700px;
-  overflow: hidden;
-  background-color: #000;
-  text-align: center;
-  color: #fff;
-}
-
-/* Footer Sections */
-.footer-section {
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  background-color: #222;
-}
-
-/* Links */
-.link {
-  color: #00bcd4;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.link:hover {
-  color: #008ba3;
-}
-
-/* Heading Styles */
-h3 {
-  color: #00bcd4;
-}
-
-/* Copyright Styles */
-.copyright {
-  margin-top: 20px;
-  font-size: 14px;
-  opacity: 0.8;
-}
-
-/* Social Media Icons */
-.social-icons {
+/* Updated CSS */
+.footer {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.aboutUs h4,
+.contact h4,
+.privacyTerms h4,
+.partnerships h4 {
+  color: aqua;
+}
+
+.copyrightBox {
+  width: 100%; /* Occupy full width in the second row */
+  background-color: black;
+  color: white;
+  padding: 10px;
   margin-top: 20px;
+  border: 2px solid aqua;
+  border-radius: 5px;
 }
 
-.social-icon {
-  color: #00bcd4;
-  font-size: 32px;
-  margin: 0 20px;
-  transition: color 0.3s ease;
+.link {
+  color: aqua;
+  text-decoration: underline;
 }
 
-.social-icon:hover {
-  color: #008ba3;
-}
-
-/* Advanced Styling for Specific Elements */
-.footer-section p {
-  font-size: 18px;
-  opacity: 0.9;
-  line-height: 1.6;
+.separator {
+  margin: 0 5px;
 }
