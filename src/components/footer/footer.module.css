@@ -1,12 +1,22 @@
-/* Updated CSS */
+/* Updated CSS with animations and gradient background */
+
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: black;
+  background:  #000000;
   color: white;
-  padding: 20px;
-  margin: 10px;
+  padding: 50px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .row {
@@ -26,21 +36,38 @@
 .privacyTerms h4,
 .partnerships h4 {
   color: aqua;
+  animation: slideIn 1s ease-in-out; /* Add a slideIn animation */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .copyrightBox {
-  width: 100%; /* Occupy full width in the second row */
-  background-color: black;
+  width: 100%;
   color: white;
   padding: 10px;
   margin-top: 20px;
   border: 2px solid aqua;
   border-radius: 5px;
+  animation: fadeIn 1s ease-in-out; /* Add a fadeIn animation */
 }
 
 .link {
   color: aqua;
   text-decoration: underline;
+  transition: color 0.3s ease-in-out; /* Add a smooth color transition */
+}
+
+.link:hover {
+  color: lightblue;
 }
 
 .separator {
