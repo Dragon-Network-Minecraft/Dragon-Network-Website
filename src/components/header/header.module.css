@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 20px;
 }
 
 .logo {
@@ -12,10 +12,9 @@
 }
 
 .logo img {
-  max-width: 90px; /* Set maximum width */
+  max-width: 100px;
   height: auto;
-  margin-right: 10px;
-  margin-left: 30px;
+  margin-right: 15px;
   animation: logoAnimation 1s ease-in-out infinite;
 }
 
@@ -24,13 +23,14 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 }
 
 .header {
-  background: linear-gradient(to right, #000000, #043557); /* Black gradient background */
-  width: 100%
+  background: #000; /* Dark black background */
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header ul {
@@ -38,27 +38,30 @@
   padding: 0;
   list-style: none;
   display: flex;
-  gap: 15px; /* Reduced gap */
+  gap: 20px;
 }
 
 .header li {
-  display: none;
-  margin: 0;
-  padding: 0;
-  font-size: 1rem; /* Adjusted font size */
+  font-size: 1.2rem;
 }
 
 .header li a {
-  color: white;
+  color: rgb(0, 229, 255);
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .header li a:hover {
-  color: cyan;
+  color: #00bcd4;
 }
 
-@media (min-width: 450px) {
-  .header li {
-    display: inline-block;
-  }
+/* Aqua styling for specific elements */
+.header .animatedBackground {
+  background: linear-gradient(to right, #003366, #006699);
+  padding: 10px; /* Adjusted padding for better spacing */
+  border-radius: 10px; /* Added border-radius for a rounded appearance */
+}
+
+.header .animatedLogo {
+  filter: brightness(1.2); /* Slightly increased brightness for the logo */
 }
