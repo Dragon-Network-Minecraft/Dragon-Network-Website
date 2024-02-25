@@ -58,6 +58,7 @@
   border: 2px solid aqua;
   border-radius: 5px;
   animation: fadeIn 1s ease-in-out; /* Add a fadeIn animation */
+  text-align: center;
 }
 
 .contact a[href^="mailto:"] {
