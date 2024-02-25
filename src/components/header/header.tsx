@@ -15,8 +15,6 @@ export default component$(() => {
           <li><a href="/vote">Vote</a></li>
           <li><a href="/store">Store</a></li>
           <li><a href="/rules">Rules</a></li>
-          <li><a href="/ban-appeal">Ban Appeal</a></li>
-          <li><a>More</a></li>
         </ul>
       </div>
     </header>
