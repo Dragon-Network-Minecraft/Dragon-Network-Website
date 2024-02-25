@@ -60,6 +60,11 @@
   animation: fadeIn 1s ease-in-out; /* Add a fadeIn animation */
 }
 
+.contact a[href^="mailto:"] {
+  color: rgba(0, 66, 207, 0.733);
+  text-decoration: none;
+}
+
 .link {
   color: rgb(9, 136, 136);
   text-decoration: underline;

@@ -15,7 +15,6 @@ export default component$(() => {
           <div class={styles.contact}>
             <h4>Contact Us</h4>
             <p>Email: <a href="mailto:info@dragonnetwork.digital">info@dragonnetwork.digital</a></p>
-            <p>Join us on <a href="https://discord.gg/TAAxqS5eXD" target="_blank">Discord</a></p>
           </div>
         </div>
 
