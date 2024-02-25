@@ -21,10 +21,12 @@ export default component$(() => {
 
         <div class={styles.column}>
           <div class={styles.privacyTerms}>
-            <h4>Privacy Policy and Terms of Service</h4>
+            <h4>Important Links</h4>
             <a href="/privacy-policy" class={styles.link}>Privacy Policy</a>
-            <span class={styles.separator}>|</span>
+            <br></br>
             <a href="/terms-of-service" class={styles.link}>Terms of Service</a>
+            <br></br>
+            <a href="/cookies-policy" class={styles.link}>Cookies Policy</a>
           </div>
         </div>
 
@@ -34,6 +36,7 @@ export default component$(() => {
             <p>We collaborate with industry leaders to provide the best solutions.</p>
 
             {/* Social Media Icons */}
+            <h4>Social Media</h4>
             <div class={styles.socialIcons}>
               <a href="https://www.instagram.com/dragonnetwork.dg" target="_blank">
                 <img src="https://media.discordapp.net/attachments/1134051261688328294/1210947299946012692/instagram.png?ex=65ec698e&is=65d9f48e&hm=732a5d849b3efbe06f6bc1057354638619c686e298a9c94b22fac1fb48689d3d&=&format=webp&quality=lossless&width=688&height=688" alt="Instagram" style={{ maxHeight: '30px' }} />
