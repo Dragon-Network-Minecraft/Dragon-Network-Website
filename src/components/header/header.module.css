@@ -67,3 +67,41 @@
 .header .animatedLogo {
   filter: brightness(1.2); /* Slightly increased brightness for the logo */
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .logo img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adjusted gap for better spacing on smaller screens */
+  }
+
+  .header li {
+    margin-bottom: 0;
+  }
+
+  .animatedBackground {
+    padding: 5px; /* Adjusted padding for smaller screens */
+  }
+
+  /* Optional: Adjust logo animation for smaller screens */
+  @keyframes logoAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+}
