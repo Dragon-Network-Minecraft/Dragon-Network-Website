@@ -86,3 +86,10 @@ a {
   background-color: rgb(34, 34, 34);
 }
 
+/* G9 Aerospace Icon Styles */
+.g9AerospaceIcon {
+  position: absolute;
+  bottom: -40px;
+  right: 20px;
+  animation: fadeIn 1s ease-in-out;
+}

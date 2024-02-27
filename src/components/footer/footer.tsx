@@ -3,40 +3,40 @@ import styles from "./footer.module.css";
 
 export default component$(() => {
   return (
-    <footer class={styles.footer}>
-      <div class={styles.row}>
-        <div class={styles.column}>
-          <div class={styles.aboutUs}>
+    <footer className={styles.footer}>
+      <div className={styles.row}>
+        <div className={styles.column}>
+          <div className={styles.aboutUs}>
             <h4>About Us</h4>
             <p>Discover more about our mission and values.</p>
           </div>
 
-          <div class={styles.contact}>
+          <div className={styles.contact}>
             <h4>Contact Us</h4>
             <p>Email: <a href="mailto:info@dragonnetwork.digital">info@dragonnetwork.digital</a></p>
           </div>
         </div>
 
-        <div class={styles.column}>
-          <div class={styles.privacyTerms}>
+        <div className={styles.column}>
+          <div className={styles.privacyTerms}>
             <h4>Links</h4>
-            <a href="/privacy-policy" class={styles.link}>Privacy Policy</a>
+            <a href="/privacy-policy" className={styles.link}>Privacy Policy</a>
             <br></br>
-            <a href="/terms-of-service" class={styles.link}>Terms of Service</a>
+            <a href="/terms-of-service" className={styles.link}>Terms of Service</a>
             <br></br>
-            <a href="/cookies-policy" class={styles.link}>Cookies Policy</a>
+            <a href="/cookies-policy" className={styles.link}>Cookies Policy</a>
           </div>
         </div>
 
-        <div class={styles.column}>
-          <div class={styles.partnerships}>
+        <div className={styles.column}>
+          <div className={styles.partnerships}>
             <h4>Partnerships</h4>
             <p>We collaborate with industry leaders to provide the best solutions.</p>
             <p>Partnership: <a href="mailto:partnership@dragonnetwork.digital">partnership@dragonnetwork.digital</a></p>
 
             {/* Social Media Icons */}
             <h4>Stay Connected</h4>
-            <div class={styles.socialIcons}>
+            <div className={styles.socialIcons}>
               <a href="https://www.instagram.com/dragonnetwork.dg" target="_blank">
                 <img src="https://media.discordapp.net/attachments/1134051261688328294/1210947299946012692/instagram.png?ex=65ec698e&is=65d9f48e&hm=732a5d849b3efbe06f6bc1057354638619c686e298a9c94b22fac1fb48689d3d&=&format=webp&quality=lossless&width=688&height=688" alt="Instagram" style={{ maxHeight: '30px' }} />
               </a>
@@ -56,13 +56,21 @@ export default component$(() => {
           </div>
         </div>
 
-
-      <div class={styles.copyrightBox}>
-        <div class={styles.copyright}>
-          <p>&copy; 2024 Dragon Network. All rights reserved.</p>
+        <div className={styles.copyrightBox}>
+          <div className={styles.copyright}>
+            <p>&copy; 2024 Dragon Network. All rights reserved.</p>
+          </div>
         </div>
       </div>
 
+      <div className={styles.g9AerospaceIcon}>
+        <a href="https://g9aerospace.in" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://media.discordapp.net/attachments/1134051261688328294/1212068745233698846/g9aerospace.png?ex=65f07dfc&is=65de08fc&hm=d01a182f9645f1e902fb8bed5ef2df84a7385b817716a8a341905e7a58e21b5c&=&format=webp&quality=lossless&width=450&height=450"
+            alt="G9 Aerospace"
+            style={{ maxHeight: '50px', maxWidth: '50px', cursor: 'pointer' }}
+          />
+        </a>
       </div>
     </footer>
   );
