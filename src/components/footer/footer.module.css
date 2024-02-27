@@ -1,22 +1,26 @@
+/* Footer Styles */
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background:  #000000;
+  background: #000000;
   color: white;
   padding: 50px;
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeInDown 1s ease-in-out;
 }
 
-@keyframes fadeIn {
+@keyframes fadeInDown {
   from {
     opacity: 0;
+    transform: translateY(-50px);
   }
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
+/* Row Styles */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -24,30 +28,33 @@
   width: 100%;
 }
 
+/* Column Styles */
 .column {
   flex: 1;
   margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header Styles */
 .aboutUs h4,
 .contact h4,
 .privacyTerms h4,
 .partnerships h4 {
   color: aqua;
-  animation: slideIn 1s ease-in-out; /* Add a slideIn animation */
 }
 
-@keyframes slideIn {
-  from {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
+/* Copyright Box Styles */
 .copyrightBox {
   width: 100%;
   color: white;
@@ -55,25 +62,35 @@
   margin-top: 20px;
   border: 2px solid aqua;
   border-radius: 5px;
-  animation: fadeIn 1s ease-in-out; /* Add a fadeIn animation */
+  animation: fadeIn 1s ease-in-out;
   text-align: center;
 }
 
+/* Contact Link Styles */
 .contact a[href^="mailto:"] {
-  color: rgba(0, 66, 207, 0.733);
+  color: rgba(0, 66, 207, 0.8);
   text-decoration: none;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
+/* Link Styles */
 .link {
   color: rgb(9, 136, 136);
   text-decoration: underline;
-  transition: color 0.3s ease-in-out; /* Add a smooth color transition */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .link:hover {
   color: lightblue;
+  transform: scale(1.1);
 }
 
-.separator {
-  margin: 0 5px;
+/* Social Icons Animation */
+.socialIcons a {
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socialIcons a:hover {
+  transform: rotate(360deg) scale(1.2);
 }
