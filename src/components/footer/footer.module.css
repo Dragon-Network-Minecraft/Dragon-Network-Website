@@ -81,7 +81,7 @@
 }
 
 .link:hover {
-  color: lightblue;
+  color: rgb(37, 194, 194);
   transform: scale(1.1);
 }
 
