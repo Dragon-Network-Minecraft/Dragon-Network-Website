@@ -33,6 +33,7 @@ export default component$(() => {
           <div class={styles.partnerships}>
             <h4>Partnerships</h4>
             <p>We collaborate with industry leaders to provide the best solutions.</p>
+            <p>Partnership: <a href="mailto:partnership@dragonnetwork.digital">partnership@dragonnetwork.digital</a></p>
 
             {/* Social Media Icons */}
             <h4>Stay Connected</h4>
