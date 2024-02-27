@@ -88,8 +88,7 @@ a {
 
 /* G9 Aerospace Icon Styles */
 .g9AerospaceIcon {
-  position: absolute;
-  bottom: -40px;
+  padding-top: 20px;
   right: 20px;
   animation: fadeIn 1s ease-in-out;
 }
