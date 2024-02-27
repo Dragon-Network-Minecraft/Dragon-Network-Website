@@ -49,8 +49,6 @@ export default component$(() => {
                 <img src="https://media.discordapp.net/attachments/1134051261688328294/1210947299409133598/github.jpg?ex=65ec698e&is=65d9f48e&hm=c1f63faacbf8c0aa288af0aef46c6add8e4ac9e8a16ef45f4915ad11ef240cec&=&format=webp&width=525&height=525" alt="GitHub" style={{ maxHeight: '30px' }} />
               </a>
 
-              <a> </a>
-
               <a href="https://discord.gg/TAAxqS5eXD" target="_blank">
                 <img src="https://media.discordapp.net/attachments/1134051261688328294/1210947299040174140/discord.png?ex=65ec698e&is=65d9f48e&hm=5adb4638198ff8eedeb5b791642e5e263ab0a2a22378bf74aba39632ac383601&=&format=webp&quality=lossless&width=320&height=320" alt="Discord" style={{ maxHeight: '30px' }} />
               </a>
