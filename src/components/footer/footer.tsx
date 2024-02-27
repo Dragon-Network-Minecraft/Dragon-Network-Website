@@ -1,4 +1,3 @@
-// Updated JSX with social media icons
 import { component$ } from "@builder.io/qwik";
 import styles from "./footer.module.css";
 
