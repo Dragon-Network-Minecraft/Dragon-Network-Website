@@ -82,10 +82,6 @@ a {
   border-radius: 2px;
 }
 
-.socialIcons a:hover {
-  background-color: rgb(34, 34, 34);
-}
-
 /* G9 Aerospace Icon Styles */
 .g9AerospaceIcon {
   padding-top: 20px;
