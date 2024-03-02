@@ -16,7 +16,6 @@
   max-width: 100px;
   height: auto;
   margin-right: 15px;
-  animation: logoAnimation 1s ease-in-out infinite;
 }
 
 @keyframes logoAnimation {
